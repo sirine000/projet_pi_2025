@@ -101,167 +101,137 @@
 
 
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>SERVICES</h2>
-                <p>bienvenue</p>
-            </div><!-- End Section Title -->
-      
-            <div class="container px-4 py-5 mx-auto">
-    <div class="row d-flex justify-content-center">
-        <div class="col-5">
-            <h4 class="heading">Shopping Bag</h4>
-        </div>
-        <div class="col-7">
-            <div class="row text-right">
-                <div class="col-4">
-                    <h6 class="mt-2">Format</h6>
-                </div>
-                <div class="col-4">
-                    <h6 class="mt-2">Quantity</h6>
-                </div>
-                <div class="col-4">
-                    <h6 class="mt-2">Price</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center border-top">
-        <div class="col-5">
-            <div class="row d-flex">
-                <div class="book">
-                    <img src="https://i.imgur.com/2DsA49b.jpg" class="book-img">
-                </div>
-                <div class="my-auto flex-column d-flex pad-left">
-                    <h6 class="mob-text">Thinking, Fast and Slow</h6>
-                    <p class="mob-text">Daniel Kahneman</p>
-                </div>
-            </div>
-        </div>
-        <div class="my-auto col-7">
-            <div class="row text-right">
-                <div class="col-4">
-                    <p class="mob-text">Digital</p>
-                </div>
-                <div class="col-4">
-                    <div class="row d-flex justify-content-end px-3">
-                        <p class="mb-0" id="cnt1">1</p>
-                        <div class="d-flex flex-column plus-minus">
-                            <span class="vsm-text plus">+</span>
-                            <span class="vsm-text minus">-</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <h6 class="mob-text">$9.99</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center border-top">
-        <div class="col-5">
-            <div class="row d-flex">
-                <div class="book">
-                    <img src="https://i.imgur.com/Oj1iQUX.jpg" class="book-img">
-                </div>
-                <div class="my-auto flex-column d-flex pad-left">
-                    <h6 class="mob-text">Homo Deus: A Brief<br>History of Tomorrow</h6>
-                    <p class="mob-text">Yuval Noah Harari</p>
-                </div>
-            </div>
-        </div>
-        <div class="my-auto col-7">
-            <div class="row text-right">
-                <div class="col-4">
-                    <p class="mob-text">Paperback</p>
-                </div>
-                <div class="col-4">
-                    <div class="row d-flex justify-content-end px-3">
-                        <p class="mb-0" id="cnt2">1</p>
-                        <div class="d-flex flex-column plus-minus">
-                            <span class="vsm-text plus">+</span>
-                            <span class="vsm-text minus">-</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <h6 class="mob-text">$13.50</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row justify-content-center">
-        <div class="col-lg-12">
-            <div class="card">
-                <div class="row">
-                    <div class="col-lg-3 radio-group">
-                        <div class="row d-flex px-3 radio">
-                            <img class="pay" src="https://i.imgur.com/WIAP9Ku.jpg">
-                            <p class="my-auto">Credit Card</p>
-                        </div>
-                        <div class="row d-flex px-3 radio gray">
-                            <img class="pay" src="https://i.imgur.com/OdxcctP.jpg">
-                            <p class="my-auto">Debit Card</p>
-                        </div>
-                        <div class="row d-flex px-3 radio gray mb-3">
-                            <img class="pay" src="https://i.imgur.com/cMk1MtK.jpg">
-                            <p class="my-auto">PayPal</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="row px-2">
-                            <div class="form-group col-md-6">
-                                <label class="form-control-label">Name on Card</label>
-                                <input type="text" id="cname" name="cname" placeholder="Johnny Doe">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label class="form-control-label">Card Number</label>
-                                <input type="text" id="cnum" name="cnum" placeholder="1111 2222 3333 4444">
-                            </div>
-                        </div>
-                        <div class="row px-2">
-                            <div class="form-group col-md-6">
-                                <label class="form-control-label">Expiration Date</label>
-                                <input type="text" id="exp" name="exp" placeholder="MM/YYYY">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label class="form-control-label">CVV</label>
-                                <input type="text" id="cvv" name="cvv" placeholder="***">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-2">
-                        <div class="row d-flex justify-content-between px-4">
-                            <p class="mb-1 text-left">Subtotal</p>
-                            <h6 class="mb-1 text-right">$23.49</h6>
-                        </div>
-                        <div class="row d-flex justify-content-between px-4">
-                            <p class="mb-1 text-left">Shipping</p>
-                            <h6 class="mb-1 text-right">$2.99</h6>
-                        </div>
-                        <div class="row d-flex justify-content-between px-4" id="tax">
-                            <p class="mb-1 text-left">Total (tax included)</p>
-                            <h6 class="mb-1 text-right">$26.48</h6>
-                        </div>
-                        <button class="btn-block btn-blue">
-                            <span>
-                                <span id="checkout">Checkout</span>
-                                <span id="check-amt">$26.48</span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="container-fluid">
+<div id="ui-view" data-select2-id="ui-view"><div><div class="card">
+<div class="card-header">Facture
+<strong>#AGRI-20250210</strong>
+<a class="btn btn-sm btn-secondary float-right mr-1 d-print-none" href="#" onclick="javascript:window.print();" data-abc="true">
+<i class="fa fa-print"></i> Imprimer</a>
+<a class="btn btn-sm btn-info float-right mr-1 d-print-none" href="#" data-abc="true">
+<i class="fa fa-save"></i> Enregistrer</a>
+</div>
+<div class="card-body">
+<div class="row mb-4">
+<div class="col-sm-4">
+<h6 class="mb-3">De :</h6>
+<div>
+<strong>Ferme Bio Nature</strong>
+</div>
+<div>123, Route des Champs</div>
+<div>Bordeaux, France, 33000</div>
+<div>Email : contact@fermebionature.com</div>
+<div>Téléphone : +33 6 12 34 56 78</div>
 </div>
 
+<div class="col-sm-4">
+<h6 class="mb-3">À :</h6>
+<div>
+<strong>Épicerie Fraîcheur</strong>
+</div>
+<div>56, Rue du Marché</div>
+<div>Paris, France, 75001</div>
+<div>Email : contact@epiceriefraicheur.com</div>
+<div>Téléphone : +33 1 23 45 67 89</div>
+</div>
+
+<div class="col-sm-4">
+<h6 class="mb-3">Détails :</h6>
+<div>Facture
+<strong>#AGRI-20250210</strong>
+</div>
+<div>10 février 2025</div>
+<div>TVA : FR-123456789</div>
+<div>Nom du compte : Ferme Bio Nature</div>
+<div>
+<strong>Code SWIFT : 99 8888 7777 6666 5555</strong>
+</div>
+</div>
+
+</div>
+
+<div class="table-responsive-sm">
+<table class="table table-striped">
+<thead>
+<tr>
+<th class="center">#</th>
+<th>Produit</th>
+<th>Description</th>
+<th class="center">Quantité</th>
+<th class="right">Prix Unitaire</th>
+<th class="right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">1</td>
+<td class="left">Pommes Bio</td>
+<td class="left">Pommes Golden issues de l'agriculture biologique</td>
+<td class="center">100 kg</td>
+<td class="right">€2,50</td>
+<td class="right">€250,00</td>
+</tr>
+<tr>
+<td class="center">2</td>
+<td class="left">Tomates Cerises</td>
+<td class="left">Tomates cerises bio en barquettes de 500g</td>
+<td class="center">200 barquettes</td>
+<td class="right">€3,00</td>
+<td class="right">€600,00</td>
+</tr>
+<tr>
+<td class="center">3</td>
+<td class="left">Miel de Lavande</td>
+<td class="left">Pot de miel de lavande artisanal, 500g</td>
+<td class="center">50 pots</td>
+<td class="right">€8,00</td>
+<td class="right">€400,00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-lg-4 col-sm-5">Produits issus de l'agriculture biologique, certifiés par ECOCERT.</div>
+<div class="col-lg-4 col-sm-5 ml-auto">
+<table class="table table-clear">
+<tbody>
+<tr>
+<td class="left">
+<strong>Sous-total</strong>
+</td>
+<td class="right">€1.250,00</td>
+</tr>
+<tr>
+<td class="left">
+<strong>Remise (10%)</strong>
+</td>
+<td class="right">€125,00</td>
+</tr>
+<tr>
+<td class="left">
+<strong>TVA (5%)</strong>
+</td>
+<td class="right">€56,25</td>
+</tr>
+<tr>
+<td class="left">
+<strong>Total</strong>
+</td>
+<td class="right">
+<strong>€1.181,25</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<a class="btn btn-success" href="#" data-abc="true">
+<i class="fa fa-usd"></i> Procéder au paiement</a>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+
+                
 
 
       <footer id="footer" class="footer dark-background">
@@ -376,23 +346,16 @@
 </body>
 
 </html>
-<script src="{{ asset('js/main.js') }}">
-    $(document).ready(function(){
 
-$('.radio-group .radio').click(function(){
-    $('.radio').addClass('gray');
-    $(this).removeClass('gray');
-});
 
-$('.plus-minus .plus').click(function(){
-    var count = $(this).parent().prev().text();
-    $(this).parent().prev().html(Number(count) + 1);
-});
 
-$('.plus-minus .minus').click(function(){
-    var count = $(this).parent().prev().text();
-    $(this).parent().prev().html(Number(count) - 1);
-});
 
-});
-</script>
+
+
+
+
+
+
+
+
+

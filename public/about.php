@@ -73,6 +73,7 @@
           </li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
+        
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
